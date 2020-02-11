@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import dayGridPlugin from '@fullcalendar/daygrid';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 })
 export class AppComponent {
   title = 'todo-list';
-  calendarPlugins = [dayGridPlugin];
+  public minDate: Date = new Date ('05/07/2020');
+  public maxDate: Date = new Date ('08/27/2020');
+  public value: Date = new Date ('05/16/2020');
 }
