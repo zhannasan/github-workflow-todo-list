@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ListerTodosComponent } from './lister-todos/lister-todos.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListerTodosComponent
+    ListerTodosComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule
